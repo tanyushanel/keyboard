@@ -1,0 +1,50 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+#keyboard {
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.txt {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.key {
+    flex: 0 0 auto;
+    min-width: 30px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #3B424E;
+    border-radius: 3px;
+    font-size: 25px;
+    color: lightblue;
+    text-align: center;
+    background: #3B424E;
+}
+
+.active {
+    background: aquamarine;
+    color: #3B424E;
+}
+
+.black.active {
+    background: aquamarine;
+}
+
+.black {
+    background: black;
+}
